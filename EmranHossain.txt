@@ -1,0 +1,370 @@
+01.
+  int main();
+ 
+printf ("Hello World!");
+
+  return 0;
+}
+02.
+//This is a single-line comment
+
+/*This is a multi-line comment */
+
+03. intmyNum= 50
+
+04. 
+   int myNum = 15;
+
+ printf("%d", myNum);
+
+05.
+int x = 5;
+
+int y = 10;
+
+printf("%d", x + y);
+05.
+int x = 5,y = 6,z = 50;
+
+printf("%d", x + y + z);
+06.
+int myNum = 5;
+
+float myFloatNum = 5.99;
+
+char myLetter = 'D';
+
+07. 
+  char myLetter = 'D';
+
+  printf("%c", myLetter);
+
+08.
+int x = 10;
+
+int y = 5;
+
+printf("%d", x * y);
+
+09. 
+   int x = 10;
+
+    int y = 5;
+
+printf("%d", x /y);
+
+
+10. int x = 10;
+
+    x++;
+
+11.int x = 10;
+
+   x+=5;
+12.
+   int x = 50;
+
+   int y = 10;
+
+ if(x >y) {
+
+   printf("Hello World");
+}  
+
+13.
+  int x = 50;
+
+  int y = 50;
+
+if(x ==y) {
+
+  printf("Hello World");
+
+}
+
+14.
+int x = 50;
+
+int y = 50;
+
+if (x ==y) {
+
+  printf("Yes");
+
+}else{
+
+  printf("No");
+
+}
+
+15.
+  int x = 50;
+
+  int y = 50;
+
+if(x==y) {
+
+  printf("Yes");
+
+}else{
+
+  printf("No");
+}
+
+16.
+   
+  int day = 2;
+
+ switch (day) {
+  
+case1:
+
+    printf("Monday");
+    
+break;
+
+  
+case2:
+
+    printf("Sunday");
+    
+break;
+
+}
+
+17.  int day = 2;
+
+switch (day) {
+  
+case1:
+
+    printf("Monday");
+    
+break;
+  
+case2:
+
+    printf("Sunday");
+    
+break;
+
+}
+
+19.
+
+  int i = 1;
+
+ while(i < 6) {
+
+  printf("%d\n", i);
+  
+i++;
+
+}
+
+20.
+
+int i = 1;
+
+do
+
+ {
+
+  printf("%d\n", i);
+  
+i++;
+  }while(i < 6);
+21.
+for
+ (int i = 0; i < 5; 
+i++
+) {
+  printf("Yes\n");
+}
+
+22.  for (int i = 0; i < 10; i++) {
+
+  if (i == 5) {
+    
+break;
+
+  }
+
+  printf("%d\n", i);
+
+}
+
+23.  for (int i = 0; i < 10; i++) {
+
+  if (i == 4) {
+    
+continue;
+
+  }
+
+  printf("%d\n", i);
+}
+24.
+
+  intmyNumbers[]={25, 50, 75, 100};
+
+25.  
+  int myNumbers[] = {25, 50, 75, 100};
+
+ printf("%d", myNumbers[1]);
+
+26. int myNumbers[] = {25, 50, 75, 100};
+
+ myNumbers[0]=33;
+
+27.  int myNumbers[] = {25, 50, 75, 100};
+
+  int i;
+
+for (i = 0; i < 4; i++) {printf("%d\n",myNumbers[i]);}
+
+28. 
+char greetings[]="Hello"; 
+
+29. 
+
+chargreetings[]= {'H','i','\0'};
+
+30.  char greetings[] = "Hello World!";
+
+printf("%s", greetings);
+31.  
+ char greetings[] = "Hello World!";
+
+printf("%c",greetings[0]);
+
+32.int myAge = 43;
+
+int* ptr= &myAge;
+
+33.void myFunction() {
+
+  printf("I just got executed!");
+}
+
+int main() {
+  
+myFunction();
+
+  return 0;
+}
+34.void myFunction() {
+
+  printf("I just got executed!");
+}
+
+int main() {
+  
+myFunction();
+
+  
+myFunction();
+
+  return 0;
+}
+
+35.
+void myFunction(charname[]) {
+  printf("Hello %s\n", name);
+}
+
+int main() {
+  myFunction("Liam");
+  myFunction("Jenny");
+  myFunction("Anja");
+  return 0;
+}
+36.
+void myFunction(char name[]) {
+  printf("Hello %s\n", name);
+}
+
+int main() {
+  myFunction("Liam");
+  myFunction("Jenny");
+  myFunction("Anja");
+  return 0;
+}
+37.void myFunction(char name[]) {
+  printf("Hello %s\n", name);
+}
+
+int main() {
+  myFunction("Liam");
+  myFunction("Jenny");
+  myFunction("Anja");
+  return 0;
+}
+38.
+int myFunction(int x) {
+  
+return 5 + x;
+}
+
+int main() {
+  printf("%d", myFunction(3));
+  return 0;
+}
+39.
+struct Car {
+  char brand[50];
+  char model[50];
+  int year;
+};
+40.struct Car {
+  char brand[50];
+  char model[50];
+  int year;
+};
+
+int main() {
+  struct 
+Car
+car1;
+  return 0;
+}
+41.
+struct Car {
+  char brand[50];
+  char model[50];
+  int year;
+};
+
+int main() {
+  struct Car car1 = {"BMW","X5",1999};
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
